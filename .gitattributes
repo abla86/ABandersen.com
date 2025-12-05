@@ -2,3 +2,5 @@
 * text=auto
 *.png binary
 *.txt text
+*.js text eol=lf
+*.md diff=markdown
