@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>Anne Beth Andersen – Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header { background: #0b7285; color: #fff; padding: 2rem 1.5rem; }
+    header h1 { margin: 0 0 0.5rem 0; }
+    header p { margin: 0.2rem 0; }
+    main { max-width: 900px; margin: 0 auto; padding: 1.5rem; }
+    h2 { margin-top: 2rem; }
+    .taglist span { display: inline-block; border-radius: 999px; border: 1px solid #adb5bd; padding: 0.1rem 0.6rem; font-size: 0.85rem; margin: 0 0.4rem 0.4rem 0; }
+    .card { border: 1px solid #dee2e6; border-radius: 12px; padding: 1rem 1.2rem; margin-bottom: 1rem; }
+    .card h3 { margin-top: 0; }
+    .meta { font-size: 0.85rem; color: #495057; }
+    footer { border-top: 1px solid #dee2e6; margin-top: 2rem; padding-top: 1rem; font-size: 0.85rem; color: #495057; }
+    a { color: #0b7285; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    code { background: #f1f3f5; padding: 0.1rem 0.3rem; border-radius: 4px; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Anne Beth Andersen</h1>
+  <p>Utvikler på vei opp · Helse-IT, web og automasjon</p>
+  <p>E-post: <a href="mailto:annebeth.andersen@gmail.com" style="color:#fff;">annebeth.andersen@gmail.com</a></p>
+</header>
+<main>
+  <section>
+    <h2>Om meg</h2>
+    <p>
+      Jeg har bakgrunn som sykepleier med flere års erfaring fra helse-IT, opplæring og digital dokumentasjon.
+      De siste årene har jeg bygget utviklerkompetanse innen HTML, CSS, Python, Azure og IoT (Home Assistant, Tuya).
+      Jeg liker å forstå hvordan systemer henger sammen, automatisere ting som kan forenkles, og skape løsninger
+      som faktisk fungerer for brukerne.
+    </p>
+    <div class="taglist">
+      <span>HTML</span><span>CSS</span><span>Python</span><span>Azure Fundamentals</span><span>Home Assistant</span><span>IoT</span><span>GitHub Pages</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Prosjekter</h2>
+
+    <div class="card">
+      <h3>Home Assistant – Automatisering hjemme</h3>
+      <p class="meta">Teknologi: Home Assistant, YAML, Tuya-integrasjon, skylagring</p>
+      <p>
+        Satt opp en Home Assistant-instans med sikkerhetskopi i skyen, konfigurert sensorer og automatiseringer
+        for lys, varslinger og komfort. Utforsket Tuya-integrasjon for å koble opp IoT-enheter og forstå hvordan
+        data flyter mellom enheter, sky og lokal installasjon.
+      </p>
+      <ul>
+        <li>Konfigurert backup og gjenoppretting.</li>
+        <li>Opprettet regler for varsling og daglig automasjon.</li>
+        <li>Lært hvordan API-er og integrasjoner fungerer i praksis.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Porteføljeside – HTML/CSS og GitHub Pages</h3>
+      <p class="meta">Teknologi: HTML, CSS, Git, GitHub Pages</p>
+      <p>
+        Bygget en enkel responsiv nettside for å vise frem prosjekter og bakgrunn. Satt opp
+        Git-repo og publiserte siden via GitHub Pages. Brukte dette til å trene på strukturert HTML,
+        grunnleggende CSS-layout og versjonskontroll.
+      </p>
+      <ul>
+        <li>Strukturert semantisk HTML med seksjoner for prosjekter og kontakt.</li>
+        <li>CSS for typografi, spacing og enkel responsivitet.</li>
+        <li>Deployment til GitHub Pages for å forstå hele flyten fra kode til produksjon.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Python-øvelser – data og struktur</h3>
+      <p class="meta">Teknologi: Python, Jupyter/notatbok, Microsoft Learn</p>
+      <p>
+        Fullført moduler i Python og databehandling. Har brukt Python til å lese inn enkle datasett, gjøre
+        grunnleggende bearbeiding og skrive ut resultater. Fokus har vært på å lære variabler, løkker,
+        funksjoner og grunnleggende datastrukturer.
+      </p>
+      <ul>
+        <li>Lest inn og filtrert data fra filer.</li>
+        <li>Laget små funksjoner for å gjenbruke logikk.</li>
+        <li>Brukt øvelsene som grunnlag for å forstå hvordan backend-logikk kan bygges opp.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Kurs og sertifiseringer (utvalg)</h2>
+    <ul>
+      <li>Programmering for nybegynnere – HTML, CSS og GitHub Pages</li>
+      <li>Microsoft Learn: HTML, CSS, Python, Azure Fundamentals, Microsoft 365 Fundamentals</li>
+      <li>Trustworthy Generative AI – Vanderbilt University</li>
+      <li>Health Information Technology Fundamentals – Johns Hopkins University</li>
+      <li>Operations and Patient Safety for Healthcare IT Staff – Johns Hopkins University</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Interessert i samarbeid eller en prat? Ta kontakt på e-post: <a href="mailto:annebeth.andersen@gmail.com">annebeth.andersen@gmail.com</a>.</p>
+  </footer>
+</main>
+</body>
+</html>
