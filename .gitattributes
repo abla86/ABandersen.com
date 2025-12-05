@@ -1,48 +1,63 @@
 # --- STANDARD TEKSTHÅNDTERING ---
 * text=auto
 
-# Force LF for kode (hindrer CRLF-rot)
-*.js  text eol=lf
-*.ts  text eol=lf
-*.jsx text eol=lf
-*.tsx text eol=lf
-*.css text eol=lf
+# Tving LF-linjeslutt for kode
+*.js   text eol=lf
+*.ts   text eol=lf
+*.jsx  text eol=lf
+*.tsx  text eol=lf
+*.css  text eol=lf
 *.scss text eol=lf
+*.sass text eol=lf
 *.html text eol=lf
-*.md  text eol=lf
+*.md   text eol=lf
 *.json text eol=lf
 *.yml  text eol=lf
 *.yaml text eol=lf
 *.toml text eol=lf
-*.sh text eol=lf
+*.sh   text eol=lf
+*.py   text eol=lf
+*.env  text eol=lf
 
-# --- UTF-8 ---
-*.md text working-tree-encoding=UTF-8
+# --- UTF-8 FOR TEKST ---
+*.md  text working-tree-encoding=UTF-8
 *.txt text working-tree-encoding=UTF-8
 
-# --- BINÆRTE FILER ---
-# Disse skal ikke diffes og ikke merges
-*.png binary
-*.jpg binary
+# --- BINÆRE FILER (ingen diff/merge) ---
+*.png  binary
+*.jpg  binary
 *.jpeg binary
-*.gif binary
-*.ico binary
-*.pdf binary
-*.zip binary
-*.tar binary
-*.gz binary
+*.gif  binary
+*.ico  binary
+*.pdf  binary
+*.zip  binary
+*.tar  binary
+*.gz   binary
+*.7z   binary
+*.mp3  binary
+*.mp4  binary
+*.mov  binary
+*.avi  binary
+*.wav  binary
+*.ogg  binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.otf   binary
+*.psd   binary
 
-# --- GIT LFS (valgfritt, men smart hvis repo har store filer) ---
-# Aktiver disse hvis du bruker Git LFS
-#*.png filter=lfs diff=lfs merge=lfs -text
-#*.jpg filter=lfs diff=lfs merge=lfs -text
-#*.zip filter=lfs diff=lfs merge=lfs -text
+# --- GIT LFS (aktiver hvis du bruker LFS) ---
+#*.png  filter=lfs diff=lfs merge=lfs -text
+#*.jpg  filter=lfs diff=lfs merge=lfs -text
+#*.jpeg filter=lfs diff=lfs merge=lfs -text
+#*.mp4  filter=lfs diff=lfs merge=lfs -text
+#*.zip  filter=lfs diff=lfs merge=lfs -text
 
-# --- DIFF OPTIMALISERING ---
-*.md diff=markdown
+# --- DIFF-OPTIMALISERING ---
+*.md   diff=markdown
 *.json diff=json
 
-# --- EXPORT / PACKAGE ---
-# Ikke ta med development-ting ved eksport
-.gitignore export-ignore
+# --- EKSPORT ---
+.gitignore    export-ignore
 .gitattributes export-ignore
+.editorconfig export-ignore
